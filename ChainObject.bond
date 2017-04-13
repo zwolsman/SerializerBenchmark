@@ -1,0 +1,12 @@
+namespace x;
+struct C1Bond {
+    0: double x;
+    1: double y;
+}
+
+struct ChainObjectBond {
+    0: string chainId;
+    1: int32 attributeTypeId;
+    2: double value;
+    3: list<C1Bond> coordinates;
+}

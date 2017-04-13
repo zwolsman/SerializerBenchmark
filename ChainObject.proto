@@ -1,0 +1,12 @@
+syntax = "proto3";
+message ChainObjectProto {
+    string chainId = 1;
+    int32 attributeTypeid = 2;
+    double value = 3;
+    repeated C1Proto coordinates = 4;
+}
+
+message C1Proto {
+    double x = 1;
+    double y = 2;
+}

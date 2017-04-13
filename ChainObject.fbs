@@ -1,0 +1,13 @@
+table ChainObjectFbs {
+    chainId: string;
+    attributeTypeid: int;
+    value: double;
+    coordinates: [C1Fbs];
+}
+
+table C1Fbs {
+    x: double;
+    y: double;
+}
+
+root_type ChainObjectFbs;

@@ -1,0 +1,14 @@
+enum Gender : byte {
+    Male = 1,
+    Female,
+    Unkown
+}
+
+table Person {
+    firstName:string;
+    lastName:string;
+    age:byte;
+    gender:Gender = Unkown;
+}
+
+root_type Person;
